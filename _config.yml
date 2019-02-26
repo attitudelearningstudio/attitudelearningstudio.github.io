@@ -24,7 +24,7 @@ url: "https://attitudelearningstudio.com" # the base hostname & protocol for you
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
