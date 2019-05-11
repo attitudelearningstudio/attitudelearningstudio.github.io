@@ -24,9 +24,16 @@
 .separator-orange
   background-color: #f8931f
 
-.col-centered
+@mixin col-centered
   float: none
   margin: 0 auto
-  margin-top: 70px
+
+.col-h-centered
+  @include col-centered
   text-align: center
+
+.col-v-centered
+  @include col-centered
   vertical-align: bottom
+  margin-top: 70px
+
