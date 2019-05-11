@@ -9,20 +9,41 @@
 .separator
   height: 20px
 
-.separator-yellow
-  background-color: #fad129
+$yellow: #fad129
+$green: #009a54
+$blue: #00abed
+$purple: #812991
+$orange: #f8931f
 
-.separator-green
-  background-color: #009a54
+.bg-yellow
+  background-color: $yellow
 
-.separator-blue
-  background-color: #00abed
+.bg-green
+  background-color: $green
 
-.separator-purple
-  background-color: #812991
+.bg-blue
+  background-color: $blue
 
-.separator-orange
-  background-color: #f8931f
+.bg-purple
+  background-color: $purple
+
+.bg-orange
+  background-color: $orange
+
+.border-yellow
+  border: solid 5px $yellow
+
+.border-green
+  border: solid 5px $green
+
+.border-blue
+  border: solid 5px $blue
+
+.border-purple
+  border: solid 5px $purple
+
+.border-orange
+  border: solid 5px $orange
 
 @mixin col-centered
   float: none
