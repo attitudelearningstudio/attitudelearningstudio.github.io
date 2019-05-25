@@ -16,13 +16,13 @@
 title: Attitude Learning Studio
 email: info@attitudelearningstudio.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Where learning is an attitude,
-  P1 - P6, Primary School Student Care,
+  Where learning is an attitude
+  P1 - P6, After School Student Care,
   Baby Music, Violin, Ukulele, Piano, Music,
   Ballet, Hip Hop, Dance,
   Art and Craft,
   Chinese, English, Maths, Mathematics, Science, Enrichment,
-  623 Elias Road, Elias Mall, Singapore 510623
+  623 Elias Road, Elias Mall, Pasir Ris, Singapore 510623
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://attitudelearningstudio.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook:
