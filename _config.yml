@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://attitudelearningstudio.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook:
   publisher: https://www.facebook.com/AttitudeLearningStudio/
+google_analytics: true
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
