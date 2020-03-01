@@ -64,8 +64,9 @@
   align-items: center
   justify-content: center
 
-#navbar a
+#navbar > div > a
   font-size: calc(1.2vw + 1.3vh)
+  line-height: calc(1.2vw + 1.3vh)
   text-align: center
   color: white
 
@@ -85,6 +86,39 @@
   font-size: calc(2vw + 2vh)
   font-family: "Patrick Hand"
   color: #37BDBF
+
+#about-us .row:nth-child(2) span a, #about-us .row:nth-child(2) span a:visited
+  text-decoration: none
+  color: #37BDBF
+
+
+#navbar > div > div.dropdown-content
+  display: none
+
+.dropdown
+  position: relative
+  display: inline-block
+
+.dropdown:hover .dropdown-content
+  display: block !important
+  top: 50px
+  position: absolute
+  min-width: 100%
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1000
+  height: auto !important
+
+.dropdown-content a
+  color: white
+  padding: 12px 16px
+  text-decoration: none
+  display: block
+  text-align: center
+  font-size: calc(1vw + 1vh)
+  line-height: calc(1vw + 1vh)
+
+.dropdown-content a:hover, .dropdown-content a:visited
+  color: white
 
 @media(max-width: 400px)
   #top-stuff div
