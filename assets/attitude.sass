@@ -4,9 +4,14 @@
 @import colours
 @import service-panes
 
+body
+  overflow-x: hidden
+
+*
+  font-family: 'Nunito', sans-serif
+
 .nav-menu
   text-align: center
-  font-family: 'Nunito', sans-serif
   font-weight: bold
 
 .separator
@@ -81,7 +86,7 @@
   font-size: calc(1.2vw + 1.2vh)
   color: #F26524
 
-#about-us .row:nth-child(2) span
+#about-us .row:nth-child(2) *
   height: calc(2vw + 2vh)
   font-size: calc(2vw + 2vh)
   font-family: "Patrick Hand"
@@ -99,7 +104,7 @@
   position: relative
   display: inline-block
 
-.dropdown:hover .dropdown-content
+.dropdown:hover .dropdown-content, .dropdown.hover .dropdown-content
   display: block !important
   top: 50px
   position: absolute
