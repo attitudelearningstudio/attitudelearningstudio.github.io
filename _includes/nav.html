@@ -1,33 +1,44 @@
-<div class="container">
+<div class="container" id="top-stuff">
     <div class="row nav-header align-items-center">
         <div class="col">
-            <img src="assets/images/logo-h.jpg">
+            <img id="logo" src="/assets/images/logo.svg">
         </div>
-        <div class="col">
+        <div class="col" id="about-us">
             <div class="row">
-                <div class="col-sm nav-menu">
-                    <a href="/">home</a>
-                </div>
-                <div class="col-sm nav-menu">
-                    <a href="/about-us.html">our story</a>
-                </div>
-                <div class="col-sm nav-menu">
-                    services
-                </div>
-                <div class="col-sm nav-menu">
-                    <a href="https://forms.gle/aJm6M9MsjLHYaC8Y7" target="_blank">book a trial</a>
-                </div>
-                <div class="col-sm nav-menu">
-                    <a href="/contact-us.html">contact us</a>
-                </div>
+              <span>“Enrichment beyond the classroom”</span>
+            </div>
+            <div class="row">
+              <span>CALL US:&nbsp;&nbsp;</span>
+              <a href="tel: +6562437688">6243 7688</a>
             </div>
         </div>
     </div>
-    <div class="row separator">
-        <div class="col separator bg-yellow"></div>
-        <div class="col separator bg-green"></div>
-        <div class="col separator bg-blue"></div>
-        <div class="col separator bg-purple"></div>
-        <div class="col separator bg-orange"></div>
+    <div class="row separator" id="navbar">
+        <div class="col separator bg-yellow">
+          <a href="/">Home</a>
+        </div>
+        <div class="col separator bg-green dropdown" aria-haspopup="true">
+          <a href="#">About Us</a>
+          <div class="dropdown-content bg-green">
+            <a href="/our-story.html">Our Story</a>
+            <a href="/our-staff.html">Our Staff</a>
+          </div>
+        </div>
+        <div class="col separator bg-blue dropdown" aria-haspopup="true">
+          <a href="#">Services</a>
+          <div class="dropdown-content bg-blue">
+            <a href="/student-care.html">Student Care</a>
+            <a href="/art.html">Art Adventure</a>
+            <a href="/music.html">Music Adventure</a>
+            <a href="/dance.html">Dance Adventure</a>
+            <a href="/enrichment.html">Enrichment</a>
+          </div>
+        </div>
+        <div class="col separator bg-purple">
+          <a href="https://forms.gle/aJm6M9MsjLHYaC8Y7">Register</a>
+        </div>
+        <div class="col separator bg-orange">
+          <a href="/contact-us.html">Contact Us</a>
+        </div>
     </div>
 </div>

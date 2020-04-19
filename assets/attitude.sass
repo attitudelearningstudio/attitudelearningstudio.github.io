@@ -4,9 +4,14 @@
 @import colours
 @import service-panes
 
+body
+  overflow-x: hidden
+
+*
+  font-family: 'Nunito', sans-serif
+
 .nav-menu
   text-align: center
-  font-family: 'Nunito', sans-serif
   font-weight: bold
 
 .separator
@@ -47,3 +52,87 @@
 
 .para
   margin-top: 30px
+
+#top-stuff
+  margin-top: 20px
+
+#logo
+  width: calc(15vw + 15vh)
+
+#navbar
+  margin-top: 20px
+  height: 70px
+
+#navbar div
+  height: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+
+#navbar > div > a
+  font-size: calc(1.2vw + 1.3vh)
+  line-height: calc(1.2vw + 1.3vh)
+  text-align: center
+  color: white
+
+#about-us .row
+  justify-content: flex-end
+
+#about-us .row:nth-child(1) span
+  white-space: nowrap
+  text-overflow: ellipsis
+
+  height: calc(1.2vw + 1.2vh)
+  font-size: calc(1.2vw + 1.2vh)
+  color: #F26524
+
+#about-us .row:nth-child(2) *
+  height: calc(2vw + 2vh)
+  font-size: calc(2vw + 2vh)
+  font-family: "Patrick Hand"
+  color: #37BDBF
+
+#about-us .row:nth-child(2) span a, #about-us .row:nth-child(2) span a:visited
+  text-decoration: none
+  color: #37BDBF
+
+
+#navbar > div > div.dropdown-content
+  display: none
+
+.dropdown
+  position: relative
+  display: inline-block
+
+.dropdown:hover .dropdown-content, .dropdown.hover .dropdown-content
+  display: block !important
+  top: 50px
+  position: absolute
+  min-width: 100%
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index: 1000
+  height: auto !important
+
+.dropdown-content a
+  color: white
+  padding: 12px 16px
+  text-decoration: none
+  display: block
+  text-align: center
+  font-size: calc(1vw + 1vh)
+  line-height: calc(1vw + 1vh)
+
+.dropdown-content a:hover, .dropdown-content a:visited
+  color: white
+
+@media(max-width: 400px)
+  #top-stuff div
+    display: flex
+    justify-content: center
+
+  #top-stuff div#about-us
+    flex-direction: column
+    justify-content: center
+
+  #top-stuff div#about-us .row
+    justify-content: center
