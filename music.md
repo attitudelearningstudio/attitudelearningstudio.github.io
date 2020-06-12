@@ -3,4 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: music
+title: Baby Music, Piano, Violin, Guitar, Ukulele Classes
 ---
