@@ -22,6 +22,7 @@ url: "https://attitudelearningstudio.com" # the base hostname & protocol for you
 facebook:
   publisher: https://www.facebook.com/AttitudeLearningStudio/
 google_analytics: true
+permalink: none
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
