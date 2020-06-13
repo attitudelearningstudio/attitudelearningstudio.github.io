@@ -5,7 +5,7 @@ title: Contact Us
 
 <div class="row align-items-center">
   <div class="col-lg-11 col-h-centered col-v-centered normal-text">
-    We are located at unit #02-01 in Elias Mall, Pasir Ris.
+    We are located at unit #02-01 in Elias Mall, Pasir Ris, right above Sheng Siong supermarket.
   </div>
 </div>
 
