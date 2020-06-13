@@ -1,7 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: student-care
+layout: article
 title: Student Care and After-school Care
 ---
+<div class="row align-items-start">
+  <div class="col-lg-11 normal-text para">
+    <h1>Student Care and After-school care</h1>
+  </div>
+</div>

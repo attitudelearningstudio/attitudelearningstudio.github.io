@@ -1,7 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: our-staff
+layout: article
 title: Our Staff
 ---
+<div class="row align-items-start">
+  <div class="col-lg-11 normal-text para">
+    <h1>Our Staff</h1>
+  </div>
+</div>
