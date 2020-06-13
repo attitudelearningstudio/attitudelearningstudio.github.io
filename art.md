@@ -61,34 +61,11 @@ while concentration and focus skills are extended.</p>
   <p>Here, there are no art rules, therefore no mistakes and each artist is encouraged to express
 themselves in their own unique way through our art journey.</p>
 
-  <div class="container">
-    <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
-      <ol class="carousel-indicators">
-        <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#main-carousel" data-slide-to="1"></li>
-        <li data-target="#main-carousel" data-slide-to="2"></li>
-      </ol>
+  {% include carousel.html
+  carousel_id="art"
+  img1="/assets/images/fun-with-art/slide1.jpg" alt1="Children artwork - polar bear"
+  img2="/assets/images/fun-with-art/slide2.jpg" alt2="Children artwork - owl"
+  img3="/assets/images/fun-with-art/slide3.jpg" alt3="Children artwork - maneki-neko, scream, jellyfish"
+  %}
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 img-fluid" src="/assets/images/fun-with-art/slide1.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="/assets/images/fun-with-art/slide2.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="/assets/images/fun-with-art/slide3.jpg" alt="Third slide">
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
 </div>
