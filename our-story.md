@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Our Story
+description: Our decade of running a successful childcare centre guides our philosophy of learning and teaching. 
 ---
 <div class="row align-items-start">
   <div class="col-lg-11 normal-text para">

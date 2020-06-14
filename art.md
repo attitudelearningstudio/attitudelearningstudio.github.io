@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Art classes for children from 3-12 years old
+description: Art enrichment classes and holiday programmes for young children.
 ---
 # Painting, Claywork, Art and Craft Classes
 

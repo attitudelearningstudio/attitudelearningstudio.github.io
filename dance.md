@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ballet and Hip-hop Dance Classes
+description: Classical ballet lessons for RAD and CSTD exams. Baby body movements and hip-hop classes for young children and teenagers.
 ---
 # Baby body movements, classical ballet, hip-hop
 

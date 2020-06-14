@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Contact Us
+description: Find us in Elias Mall, right above Sheng Siong.
 ---
 
 <div class="row align-items-center">

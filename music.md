@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Baby Music, Piano, Violin, Guitar, Ukulele Classes
+description: Piano, violin, cello, guitar and ukulele lessons for ABRSM and Trinity. Young children and baby music. 
 ---
 # Group classes and individual music lessons
 
